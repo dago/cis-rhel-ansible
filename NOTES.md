@@ -1,8 +1,20 @@
 #Notes and caveats
 
-These notes are valid as of the CIS Red Hat Enterprise Linux 6 benchmark version 1.3.0.
+These notes are valid as of the CIS Solaris 10 11/06 through 10/09 benchmark version 5.0.0.
 
 ### Section 1
+
+###### 1.{1,2}
+
+This is about currentness of OS release and patches and must be checked manually.
+
+### Section 2
+
+##### 2.1
+
+There is no easy way to check if "netservices limited" has been applied earlier, so we just
+call it again if in doubt.
+
 
 ##### 1.1.1 - 1.1.16
 Existing mounts will be modified with benchmark options.  Mount points are not created if not pre-existing.
